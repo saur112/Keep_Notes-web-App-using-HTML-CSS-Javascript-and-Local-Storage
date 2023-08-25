@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+:root{
+    --bg-color:#fff
+}
+body{
+    background-color:var(--bg-color);
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading{
+    width: 100vw;
+    height: 5.5rem;
+    background-color: rgb(158, 42, 42);
+    color: #fff;
+    box-shadow: 0px 10px 16px rgba(248,247,247);
+}
+.heading h1{
+    margin-left: 2rem;
+    line-height: 5.8rem;
+    font-weight: 400;
+}
+.add:active{
+    transform: scale(0.98);
+}
+
+.btn-div{
+    position: fixed;
+    top: 7rem;
+    right: 1rem;
+    border: 10px solid rgb(70, 63, 63);
+    border-radius: 14px;
+    box-shadow: 2px 2px 8px rgb(70, 63, 63) ;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    padding: 3px;
+    background: transparent;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more{
+    width: 12 rem;
+    height: auto;
+
+}
+
+.note{
+    background-color: #f0e2e2;
+    margin: 30px 20px;
+    height: 170px;
+    width: 400px;
+    overflow-y: scroll;
+    margin-top: 7rem;
+    box-shadow: 5px 5px 8px rgb(65, 62, 62)
+}
+.note .tools{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+     
+}
+
+
+.note textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+}
+
+.fa-edit,.fa-trash-alt{
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(58, 165, 58);
+    border-radius: 50%;
+}
+.fa-trash-alt{
+    background-color: rgb(218, 26, 26);
+}
+
+ .fa-edit:hover{
+    background-color:var(--bg-color);
+    color: rgb(58, 165, 58) ;
+    filter: drop-shadow(0px 10px 8px rgb(219,218,218));
+
+
+ }
+ .fa-trash-alt:hover{
+    background-color:var(--bg-color);
+    color: rgb(218, 26, 26) ;
+    filter: drop-shadow(0px 10px 8px rgb(219,218,218));
+
+
+ }
+ 
+ 
+ .hidden{
+    display: none;
+ }
+ #main{
+    margin-left: 10px;
+    font-size: 20px;
+ }
